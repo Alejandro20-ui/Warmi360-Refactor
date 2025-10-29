@@ -1,0 +1,10 @@
+# Ignorar la carpeta vendor (se genera automáticamente en Railway)
+vendor/
+
+# Ignorar el archivo .env (contiene contraseñas y credenciales)
+.env
+
+# Opcional: ignorar logs y archivos temporales
+logs/
+storage/uploads/
+*.log
