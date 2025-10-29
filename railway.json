@@ -1,0 +1,10 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "deploy": {
+    "environment": {
+      "DOCUMENT_ROOT": "public"
+    }
+  }
+}
