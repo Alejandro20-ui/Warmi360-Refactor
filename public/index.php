@@ -26,7 +26,7 @@ use App\Controllers\AdminController;
 // ✅ PARÁMETRO PRINCIPAL
 // ======================================================
 $view = $_GET['view'] ?? 'main';
-$base_url = '/Warmi360-Refactor/public';
+$base_url = '';
 
 // ======================================================
 // ✅ RUTAS DE HEADER Y FOOTER

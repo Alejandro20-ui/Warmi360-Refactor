@@ -1,5 +1,5 @@
 <?php
-$base_url = "http://localhost/Warmi360-Refactor/public";
+$base_url = '';
 ?>
 <!DOCTYPE html>
 <html lang="es">
