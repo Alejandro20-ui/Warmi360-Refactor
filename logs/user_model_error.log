@@ -1,0 +1,1 @@
+[2025-10-29 07:42:09] PDOException al registrar usuaria: SQLSTATE[HY000]: General error: 1364 Field 'id_usuario' doesn't have a default value
