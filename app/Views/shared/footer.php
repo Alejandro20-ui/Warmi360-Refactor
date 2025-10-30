@@ -1,5 +1,5 @@
 <?php
-$base_url = '';
+$base_url = "http://warmi360-refactor-production.up.railway.app/public";
 ?>
 
 <footer class="bg-text-dark text-white mt-20 border-t-4 border-primary shadow-inner">

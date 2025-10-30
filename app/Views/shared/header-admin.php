@@ -1,7 +1,7 @@
 <?php
 if (session_status() === PHP_SESSION_NONE) session_start();
 
-$base_url = '';
+$base_url = "http://warmi360-refactor-production.up.railway.app/public";
 
 // ✅ Verificar si hay sesión y si el rol es admin (3)
 if (!isset($_SESSION['id_usuario']) || $_SESSION['rol'] != 3) {

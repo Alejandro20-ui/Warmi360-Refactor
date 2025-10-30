@@ -4,11 +4,11 @@ require_once __DIR__ . '/../../../config/database.php';
 $pdo = Database::connect();
 
 if (!isset($_SESSION['rol']) || $_SESSION['rol'] != 3) {
-  header("Location: /Warmi360-Refactor/public/?view=login");
+  header("Location: warmi360-refactor-production.up.railway.app/public/?view=login");
   exit;
 }
 
-$base_url = '';
+$base_url = "http://warmi360-refactor-production.up.railway.app/public";
 
 // 📊 Datos del dashboard
 $totalUsuarias = $pdo->query("SELECT COUNT(*) FROM usuarios WHERE id_role = 1")->fetchColumn();

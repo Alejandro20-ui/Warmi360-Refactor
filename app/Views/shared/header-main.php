@@ -101,7 +101,7 @@ $base_url = '';
       if (!container) return;
 
       createChat({
-        webhookUrl: "http://localhost:5678/webhook/713a62c3-cfa4-4df7-af75-05c877ccf605/chat", // 🔹 Reemplázalo por tu URL real
+        webhookUrl: "http://warmi360-refactor-production.up.railway.app/webhook/713a62c3-cfa4-4df7-af75-05c877ccf605/chat", // 🔹 Reemplázalo por tu URL real
         target: container, // ✅ Se monta dentro del contenedor invisible
         title: "Luna 💜",
         subtitle: "Tu asistente WARMI 360",

@@ -26,9 +26,7 @@ use App\Controllers\AdminController;
 // ✅ PARÁMETRO PRINCIPAL
 // ======================================================
 $view = $_GET['view'] ?? 'main';
-$protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
-$host = $_SERVER['HTTP_HOST'];
-$base_url = "$protocol://$host";
+$base_url = '';
 
 // ======================================================
 // ✅ RUTAS DE HEADER Y FOOTER
