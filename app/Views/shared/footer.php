@@ -1,5 +1,5 @@
 <?php
-$base_url = "http://localhost/Warmi360-Refactor/public";
+$base_url = '';
 ?>
 
 <footer class="bg-text-dark text-white mt-20 border-t-4 border-primary shadow-inner">

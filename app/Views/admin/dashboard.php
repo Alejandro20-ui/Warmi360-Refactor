@@ -8,7 +8,7 @@ if (!isset($_SESSION['rol']) || $_SESSION['rol'] != 3) {
   exit;
 }
 
-$base_url = "http://localhost/Warmi360-Refactor/public";
+$base_url = '';
 
 // 📊 Datos del dashboard
 $totalUsuarias = $pdo->query("SELECT COUNT(*) FROM usuarios WHERE id_role = 1")->fetchColumn();
