@@ -4,7 +4,7 @@ require_once __DIR__ . '/../../../config/database.php';
 $pdo = Database::connect();
 
 if (!isset($_SESSION['rol']) || $_SESSION['rol'] != 3) {
-  header("Location: warmi360-refactor-production.up.railway.app/public/?view=login");
+  header("Location: /warmi360-refactor-production.up.railway.app/public/?view=login");
   exit;
 }
 

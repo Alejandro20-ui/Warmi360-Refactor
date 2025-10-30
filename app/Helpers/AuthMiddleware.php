@@ -13,13 +13,13 @@ class AuthMiddleware
 
     if (!isset($_SESSION['id_usuario']) || !isset($_SESSION['rol'])) {
         error_log("🚨 Sin sesión, redirigiendo a login");
-        header("Location: /Warmi360-Refactor/public/?view=login");
+        header("Location: /warmi360-refactor-production.up.railway.app/public/?view=login");
         exit;
     }
 
     if (!empty($rolesPermitidos) && !in_array((int)$_SESSION['rol'], $rolesPermitidos)) {
         error_log("🚫 Rol no autorizado: " . $_SESSION['rol']);
-        header("Location: /Warmi360-Refactor/public/?view=main");
+        header("Location: /warmi360-refactor-production.up.railway.app/public/?view=main");
         exit;
     }
 }
@@ -34,7 +34,7 @@ class AuthMiddleware
         session_unset();
         session_destroy();
 
-        header("Location: /Warmi360-Refactor/public/?view=login");
+        header("Location: /warmi360-refactor-production.up.railway.app/public/?view=login");
         exit;
     }
 }

@@ -20,7 +20,7 @@ class AdminController
         if (session_status() === PHP_SESSION_NONE) session_start();
 
         if (!isset($_SESSION['rol']) || $_SESSION['rol'] != 3) {
-            header('Location: /Warmi360-Refactor/public/?view=login');
+            header('Location: /warmi360-refactor-production.up.railway.app/public/?view=login');
             exit;
         }
 

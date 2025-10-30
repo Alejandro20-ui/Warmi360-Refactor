@@ -1,6 +1,6 @@
 <?php
 // Base URL global
-$base_url = "http://localhost/Warmi360-Refactor/public";
+$base_url = "http://warmi360-refactor-production.up.railway.app/public";
 ?>
 <!DOCTYPE html>
 <html lang="es">

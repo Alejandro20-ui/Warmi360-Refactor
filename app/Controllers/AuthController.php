@@ -174,13 +174,13 @@ class AuthController
             // Redirección por rol
             switch ($user['id_role']) {
                 case 3:
-                    $redirect = '/Warmi360-Refactor/public/?view=admin';
+                    $redirect = '/warmi360-refactor-production.up.railway.app/public/?view=admin';
                     break;
                 case 2:
-                    $redirect = '/Warmi360-Refactor/public/?view=psicologa';
+                    $redirect = '/warmi360-refactor-production.up.railway.app/public/?view=psicologa';
                     break;
                 default:
-                    $redirect = '/Warmi360-Refactor/public/?view=usuaria';
+                    $redirect = '/warmi360-refactor-production.up.railway.app/public/?view=usuaria';
                     break;
             }
 

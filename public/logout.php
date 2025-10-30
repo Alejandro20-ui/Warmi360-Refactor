@@ -3,5 +3,5 @@ session_start();
 session_unset();
 session_destroy();
 
-header("Location: http://localhost/Warmi360-Refactor/public/?view=login");
+header("Location: http://warmi360-refactor-production.up.railway.app/public/?view=login");
 exit;
